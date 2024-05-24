@@ -1,16 +1,120 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <!-- the entire body must be written by student -->
+    <div class="container">
+      <h2 class="block-heading">Shopping Cart</h2>
+      <p class="text-center">
+        The customer is very important, the customer will be followed by the
+        customer. Now, as an urn, I have no right to be in possession of
+        property.
+      </p>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="product">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="https://imgs.search.brave.com/6Fs5qDrjP71LJgSvpxyxEi1UuZSD6zRso4jhq7kTlPo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NTg4ODU1NDQtMmRl/ZmM2MmUyZTJiP3E9/ODAmdz0xMDAwJmF1/dG89Zm9ybWF0JmZp/dD1jcm9wJml4bGli/PXJiLTQuMC4zJml4/aWQ9TTN3eE1qQTNm/REI4TUh4elpXRnlZ/Mmg4TVRKOGZHMXZZ/bWxzWlNVeU1IQm9i/MjVsZkdWdWZEQjhm/REI4Zkh3dw.jpeg"
+                  class="img-fluid"
+                  alt="Product Image"
+                />
+              </div>
+              <div class="col-5 product-details">
+                <h5>I am very sorry</h5>
+                <p>Display: 5 inches<br />RAM: 4GB<br />Memory: 32GB</p>
+              </div>
+              <div class="col-3 product-quantity">
+                <label for="quantity1" class="form-label">Quantity:</label>
+                <input
+                  type="number"
+                  id="quantity1"
+                  class="form-control"
+                  value="0"
+                />
+              </div>
+              <div class="col-1 text-end product-price">$120</div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="https://imgs.search.brave.com/6Fs5qDrjP71LJgSvpxyxEi1UuZSD6zRso4jhq7kTlPo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NTg4ODU1NDQtMmRl/ZmM2MmUyZTJiP3E9/ODAmdz0xMDAwJmF1/dG89Zm9ybWF0JmZp/dD1jcm9wJml4bGli/PXJiLTQuMC4zJml4/aWQ9TTN3eE1qQTNm/REI4TUh4elpXRnlZ/Mmg4TVRKOGZHMXZZ/bWxzWlNVeU1IQm9i/MjVsZkdWdWZEQjhm/REI4Zkh3dw.jpeg"
+                  class="img-fluid"
+                  alt="Product Image"
+                />
+              </div>
+              <div class="col-5 product-details">
+                <h5>I am very sorry</h5>
+                <p>Display: 5 inches<br />RAM: 4GB<br />Memory: 32GB</p>
+              </div>
+              <div class="col-3 product-quantity">
+                <label for="quantity2" class="form-label">Quantity:</label>
+                <input
+                  type="number"
+                  id="quantity2"
+                  class="form-control"
+                  value="1"
+                />
+              </div>
+              <div class="col-1 text-end product-price">$120</div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="https://imgs.search.brave.com/6Fs5qDrjP71LJgSvpxyxEi1UuZSD6zRso4jhq7kTlPo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NTg4ODU1NDQtMmRl/ZmM2MmUyZTJiP3E9/ODAmdz0xMDAwJmF1/dG89Zm9ybWF0JmZp/dD1jcm9wJml4bGli/PXJiLTQuMC4zJml4/aWQ9TTN3eE1qQTNm/REI4TUh4elpXRnlZ/Mmg4TVRKOGZHMXZZ/bWxzWlNVeU1IQm9i/MjVsZkdWdWZEQjhm/REI4Zkh3dw.jpeg"
+                  class="img-fluid"
+                  alt="Product Image"
+                />
+              </div>
+              <div class="col-5 product-details">
+                <h5>I am very sorry</h5>
+                <p>Display: 5 inches<br />RAM: 4GB<br />Memory: 32GB</p>
+              </div>
+              <div class="col-3 product-quantity">
+                <label for="quantity3" class="form-label">Quantity:</label>
+                <input
+                  type="number"
+                  id="quantity3"
+                  class="form-control"
+                  value="1"
+                />
+              </div>
+              <div class="col-1 text-end product-price">$120</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="summary">
+            <h4>Summary</h4>
+            <p>Subtotal: $360</p>
+            <p>Discount: $0</p>
+            <p>Shipping: $0</p>
+            <p>Total: $360</p>
+            <button type="button" class="btn w-100">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
